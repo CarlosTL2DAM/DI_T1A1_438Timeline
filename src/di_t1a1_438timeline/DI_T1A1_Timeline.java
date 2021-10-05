@@ -86,7 +86,7 @@ public class DI_T1A1_Timeline extends Application {
         };
 
         //Definimos el bucle con la duración
-        Timeline animacion = new Timeline(new KeyFrame(Duration.millis(5), eH));
+        Timeline animacion = new Timeline(new KeyFrame(Duration.millis(500), eH));
         animacion.setCycleCount(Timeline.INDEFINITE);
         //Iniciamos l animación
         animacion.play();
